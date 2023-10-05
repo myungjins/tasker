@@ -1,0 +1,64 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    .headerInner{
+        display: flex;
+        align-items: center;
+        width: 1092px;
+        margin: 0 auto;
+    }
+    .logo{
+        a{
+            display: inline-block;
+            width: 101px;
+            height: 23px;
+            background: url("/public/images/icons/logo.svg") no-repeat center/contain;
+        }
+    }
+    .gnb{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;;
+        .gnbBox{
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        .gnbList,
+        .login_group{
+            display: flex;
+            li{
+                margin-left: 29px;
+                a{
+                    font-size: 14px;
+                    color: #707070;
+                }
+                &:first-child{
+                    margin-left: 43px;
+                }
+            }
+        }
+        .login_group{
+            display: flex;
+            align-items: center;
+        }
+        .globalBtn{
+            width: 20px;
+            height: 20px;
+            background: url("/public/images/icons/ic_global.svg") no-repeat center/contain;
+        }
+    }
+}
+
+@media all and (max-width: 1366px) {
+    #header .headerInner{
+        width: 1024px;
+    }
+}

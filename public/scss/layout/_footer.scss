@@ -1,0 +1,86 @@
+footer{
+    width: 100%;
+    padding: 121px 0 0 0;
+    box-sizing: border-box;
+    .alignJustify{
+        align-items: flex-start;
+        width: 1092px;
+        margin: 0 auto;
+    }
+    .logo{
+        a{
+            display: inline-block;
+            width: 149px;
+            height: 33px;
+            background: url("/public/images/icons/logo.svg") no-repeat center/contain;
+        }
+    }
+    .txt{
+        padding: 25px 0 30px;
+        font-size: 14px;
+        color: #464646;
+        line-height: 20px;
+    }
+    .snsList{
+        display: flex;
+        .sns{
+            width: 32px;
+            height: 32px;
+            margin-right: 16px;
+            a{
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+            }
+            &.facebook{
+                background: url("/public/images/icons/ic_sns_facebook.svg") no-repeat center/contain;
+            }
+            &.gmail{
+                background: url("/public/images/icons/ic_sns_gmail.svg") no-repeat center/contain;
+            }
+            &.in{
+                background: url("/public/images/icons/ic_sns_in.svg") no-repeat center/contain;
+            }
+            &.insta{
+                background: url("/public/images/icons/ic_sns_insta.svg") no-repeat center/contain;
+            }
+            &.x{
+                background: url("/public/images/icons/ic_sns_x.svg") no-repeat center/contain;
+            }
+        }
+    }
+    .menuList{
+        display: flex;
+        > li:not(:last-of-type){
+            padding-right: 54px;
+        }
+        .menuTitle{
+            font-size: 18px;
+            color: #303030;
+            font-weight: 700;
+            padding-bottom: 6px;
+        }
+        .subMenu{
+            padding-bottom: 17px;
+            li{
+                margin-top: 9px;
+                font-size: 14px;
+                color: #464646;
+                font-weight: 400;
+            }
+        }
+    }
+    .copyright{
+        width: 100%;
+        padding: 61px 0 32px;
+        font-size: 14px;
+        color: #464646;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 1366px) {
+    footer .alignJustify{
+        width: 1024px;
+    }
+}

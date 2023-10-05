@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>메인</title>
+        <link rel="stylesheet" type="text/css" href="./public/css/main.css"/>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="./public/js/index.js"></script>
+    </head>
+    <body>
+        <div id="skipNav">
+            <a href="#container">본문 바로가기</a>  
+        </div>
+        <div class="wrap">
+            <div id="header"></div>
+            <main id="container">
+                <section class="contentIntro bgGray">
+                    <div class="contentInner alignJustify">
+                        <div class="alignLeft">
+                            <p class="contentTxt">Tasker brings all<br /> your tasks Teams &<br /> tools together</p>
+                            <span class="contentTxt sm">Keep everything in the same place—even if your<br /> team isn’t.</span>
+                            <div class="formBox">
+                                <div class="inputBox">
+                                    <input type="email" id="user_email" title="이메일 등록" placeholder="Email" accesskey="l">
+                                </div>
+                                <button type="button" class="btn blue">Sign Up Its Free</button>
+                            </div>
+                        </div>
+                        <div class="alignRight">
+                            <div class="imgBox"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contentClients">
+                    <div class="contentInner">
+                        <div class="txtBox">
+                            <p class="clientTitle">Trusted Clients</p>
+                            <span class="clientTxt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam<br /> nonumy eirmod tempor invidunt ut labore et</span>
+                        </div>
+                        <div class="clientBox"></div>
+                    </div>
+                </section>
+                <section class="contentFeatures bgGray">
+                    <div class="contentInner alignJustify">
+                        <div class="alignLeft">
+                            <div class="txtBox">
+                                <p class="subTitle">Learn about Features</p>
+                                <p class="title"><strong>Our Top Features</strong></p>
+                                <span class="txts">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed<br /> diam nonumy eirmod tempor invidunt ut labore et dolore<br /> magna aliquyam</span>
+                            </div>
+                            <button type="button" class="btn blue md">Get Started</button>
+                        </div>
+                        <div class="alignRight">
+                            <ul class="featureWrap">
+                                <li class="featureBox tasks">
+                                    <div class="imgBox"></div>
+                                    <p class="title">Tasks</p>
+                                    <span class="txts">Lorem ipsum dolor sit amet, sconsetetur sadipscing elitr, sed diam nonumy d cs eirmod dummy text here.</span>
+                                </li>
+                                <li class="featureBox time">
+                                    <div class="imgBox"></div>
+                                    <p class="title">Time Slots</p>
+                                    <span class="txts">Lorem ipsum dolor sit amet, sconsetetur sadipscing elitr, sed diam nonumy d cs eirmod dummy text here.</span>
+                                </li>
+                                <li class="featureBox onboarding">
+                                    <div class="imgBox"></div>
+                                    <p class="title">Onboarding</p>
+                                    <span class="txts">Lorem ipsum dolor sit amet, sconsetetur sadipscing elitr, sed diam nonumy d cs eirmod dummy text here.</span>
+                                </li>
+                                <li class="featureBox collaboration">
+                                    <div class="imgBox"></div>
+                                    <p class="title">Collaboration</p>
+                                    <span class="txts">Lorem ipsum dolor sit amet, sconsetetur sadipscing elitr, sed diam nonumy d cs eirmod dummy text here.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="contentTasks">
+                    <div class="contentInner alignJustify">
+                        <div class="alignLeft">
+                            <div class="imgBox"></div>
+                        </div>
+                        <div class="alignRight">
+                            <div class="txtBox">
+                                <p class="subTitle">Perform Your All Tasks</p>
+                                <p class="title"><strong>Perform Your All Tasks<br /> At One Place</strong></p>
+                                <span class="txts">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed<br /> diam nonumy eirmod tempor invidunt ut labore et dolore<br /> magna aliquyam</span>
+                            </div>
+                            <button type="button" class="btn blue md">Get Started</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="contentBoost">
+                    <div class="contentInner alignJustify">
+                        <div class="alignLeft">
+                            <div class="txtBox">
+                                <p class="subTitle">Learn about Features</p>
+                                <p class="title"><strong>Boost Your Productivity<br /> And Management</strong></p>
+                                <span class="txts">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed<br /> diam nonumy eirmod tempor invidunt ut labore et dolore<br /> magna aliquyam</span>
+                            </div>
+                            <button type="button" class="btn blue md">Get Started</button>
+                        </div>
+                        <div class="alignRight">
+                            <div class="imgBox"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contentAbout bgGray">
+                    <div class="contentInner alignCenter">
+                        <div class="txtBox">
+                            <p class="subTitle">Testimonials</p>
+                            <p class="title"><strong>Check What Our Clients<br /> Think About Us</strong></p>
+                        </div>
+                            <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <ul class="aboutList">
+                                        <li class="aboutBox">
+                                            <p class="name">Name Here</p>
+                                            <p class="xyz">XYZ</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
+                                                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br />
+                                                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            </p>
+                                        </li>
+                                        <li class="aboutBox woman">
+                                            <p class="name">Name Here</p>
+                                            <p class="xyz">XYZ</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
+                                                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br />
+                                                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="aboutList">
+                                        <li class="aboutBox">
+                                            <p class="name">Name Here</p>
+                                            <p class="xyz">XYZ</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
+                                                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br />
+                                                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            </p>
+                                        </li>
+                                        <li class="aboutBox woman">
+                                            <p class="name">Name Here</p>
+                                            <p class="xyz">XYZ</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
+                                                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br />
+                                                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="aboutList">
+                                        <li class="aboutBox">
+                                            <p class="name">Name Here</p>
+                                            <p class="xyz">XYZ</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
+                                                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br />
+                                                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            </p>
+                                        </li>
+                                        <li class="aboutBox woman">
+                                            <p class="name">Name Here</p>
+                                            <p class="xyz">XYZ</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
+                                                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br />
+                                                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                    <ul class="aboutList">
+                                        <li class="aboutBox">
+                                            <p class="name">Name Here</p>
+                                            <p class="xyz">XYZ</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
+                                                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br />
+                                                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            </p>
+                                        </li>
+                                        <li class="aboutBox woman">
+                                            <p class="name">Name Here</p>
+                                            <p class="xyz">XYZ</p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy<br />
+                                                eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam<br />
+                                                voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contentFaq">
+                    <div class="contentInner">
+                        <div class="txtBox">
+                            <p class="subTitle">FAQ’s</p>
+                            <p class="title"><strong>Commonly Asked Questions</strong></p>
+                        </div>
+                        <ul class="faqList">
+                            <li class="faqBox activeOn">
+                                <div class="faqTitle alignJustify">
+                                    <p>Q1 . Lorem ipsum dolor sit amet, consetetur ?</p>
+                                    <button type="button" class="dropdownBtn"><span class="hidden">닫기</span></button>
+                                </div>
+                                <div class="faqTxt">
+                                    <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</span>
+                                </div>
+                            </li>
+                            <li class="faqBox">
+                                <div class="faqTitle alignJustify">
+                                    <p>Q1 . Lorem ipsum dolor sit amet, consetetur ?</p>
+                                    <button type="button" class="dropdownBtn"><span class="hidden">닫기</span></button>
+                                </div>
+                                <div class="faqTxt">
+                                    <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</span>
+                                </div>
+                            </li>
+                            <li class="faqBox">
+                                <div class="faqTitle alignJustify">
+                                    <p>Q1 . Lorem ipsum dolor sit amet, consetetur ?</p>
+                                    <button type="button" class="dropdownBtn"><span class="hidden">닫기</span></button>
+                                </div>
+                                <div class="faqTxt">
+                                    <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</span>
+                                </div>
+                            </li>
+                            <li class="faqBox">
+                                <div class="faqTitle alignJustify">
+                                    <p>Q1 . Lorem ipsum dolor sit amet, consetetur ?</p>
+                                    <button type="button" class="dropdownBtn"><span class="hidden">닫기</span></button>
+                                </div>
+                                <div class="faqTxt">
+                                    <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="newsLetter">
+                            <p class="txt">Get Latest Updates</p>
+                            <p class="txt lg"><strong>Subscribe To Our Newsletter</strong></p>
+                            <p class="txt md">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed<br />diam nonumy eirmod tempor</p>
+                            <div class="formBox">
+                                <div class="inputBox typeBorder">
+                                    <div class="email"></div>
+                                    <input type="email" id="user_email" title="email" placeholder="Email" accesskey="l">
+                                </div>
+                                <button type="button" class="btn white">Subscribe Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <div id="footer"></div>
+        </div>
+    </body>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        });
+    </script>
+</html>
